@@ -22,18 +22,18 @@ print ('++ Auth Token : %s' % line.authToken)
 kicker = LINE('')
 print ('++ Auth Token : %s' % kicker.authToken)
 print ("===============[KICKER LOGIN NOSELF TOKEN]===============\n")
-kicker2 = LINE('')
-print ('++ Auth Token : %s' % kicker2.authToken)
-print ("===============[KICKER 2 LOGIN SUKSES]===============\n")
-kicker3 = LINE('')
-print ('++ Auth Token : %s' % kicker3.authToken)
-print ("===============[KICKER 3 LOGIN SUKSES]===============\n")
-kicker4 = LINE('')
-print ('++ Auth Token : %s' % kicker4.authToken)
-print ("===============[KICKER 4 LOGIN SUKSES]===============\n")
-kicker5 = LINE('')
-print ('++ Auth Token : %s' % kicker5.authToken)
-print ("===============[KICKER 5 LOGIN SUKSES]===============\n")
+#kicker2 = LINE('')
+#print ('++ Auth Token : %s' % kicker2.authToken)
+#print ("===============[KICKER 2 LOGIN SUKSES]===============\n")
+#kicker3 = LINE('')
+#print ('++ Auth Token : %s' % kicker3.authToken)
+#print ("===============[KICKER 3 LOGIN SUKSES]===============\n")
+#kicker4 = LINE('')
+#print ('++ Auth Token : %s' % kicker4.authToken)
+#print ("===============[KICKER 4 LOGIN SUKSES]===============\n")
+#kicker5 = LINE('')
+#print ('++ Auth Token : %s' % kicker5.authToken)
+#print ("===============[KICKER 5 LOGIN SUKSES]===============\n")
 g1 = LINE('')
 print ("===============[ GHOST LOGIN SUKSES]===============\n")
 
@@ -43,10 +43,10 @@ owner = ["u47d41cc45c4576282d0c52ce4d5b5856"]
 admin = ["u47d41cc45c4576282d0c52ce4d5b5856"]
 staff = ["u47d41cc45c4576282d0c52ce4d5b5856"]
 Amid = kicker.getProfile().mid
-Bmid = kicker2.getProfile().mid
-Cmid = kicker3.getProfile().mid
-Dmid = kicker4.getProfile().mid
-Emid = kicker5.getProfile().mid
+#Bmid = kicker2.getProfile().mid
+#Cmid = kicker3.getProfile().mid
+#Dmid = kicker4.getProfile().mid
+#Emid = kicker5.getProfile().mid
 g1MID = g1.getProfile().mid
 KAC = [line,kicker,kicker2,kicker3,kicker3,kicker5]
 ABC = [kicker,kicker2,kicker3,kicker3,kicker5]
@@ -86,10 +86,10 @@ bool_dict = {
 }
 
 responsename1 = kicker.getProfile().displayName
-responsename2 = kicker2.getProfile().displayName
-responsename3 = kicker3.getProfile().displayName
-responsename4 = kicker4.getProfile().displayName
-responsename5 = kicker5.getProfile().displayName
+#responsename2 = kicker2.getProfile().displayName
+#responsename3 = kicker3.getProfile().displayName
+#responsename4 = kicker4.getProfile().displayName
+#responsename5 = kicker5.getProfile().displayName
 
 # Backup profile
 profile = line.getContact(myMid)
