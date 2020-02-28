@@ -16,37 +16,43 @@ parser.add_argument('-S', '--showqr', type=str2bool, nargs='?', default=False, m
 args = parser.parse_args()
 
 # Login line
-line = LINE('')
+line = LINE('EOrUFc5hXNEQzaVZjH72.Bmnxdtayhovnf4ncDEYBuG.qQgq0ioYBAjOfKFnELHUz+Xu1xhUvjndPIcLlzEcd+U')
 print ("===============[ADMIN LOGIN]===============\n")
 print ('++ Auth Token : %s' % line.authToken)
-kicker = LINE('')
+
+kicker = LINE('EOfSvXSFaJVfOzxHynl6.RD/FZabZ/UggLjcq3uvITG.iAhK4qpa6L/CH+t8VKY4ftNPzN5p2L4Q+kBT48rO2N0')
 print ('++ Auth Token : %s' % kicker.authToken)
 print ("===============[KICKER LOGIN NOSELF TOKEN]===============\n")
-#kicker2 = LINE('')
-#print ('++ Auth Token : %s' % kicker2.authToken)
-#print ("===============[KICKER 2 LOGIN SUKSES]===============\n")
-#kicker3 = LINE('')
-#print ('++ Auth Token : %s' % kicker3.authToken)
-#print ("===============[KICKER 3 LOGIN SUKSES]===============\n")
-#kicker4 = LINE('')
-#print ('++ Auth Token : %s' % kicker4.authToken)
-#print ("===============[KICKER 4 LOGIN SUKSES]===============\n")
-#kicker5 = LINE('')
-#print ('++ Auth Token : %s' % kicker5.authToken)
-#print ("===============[KICKER 5 LOGIN SUKSES]===============\n")
-g1 = LINE('')
+
+kicker2 = LINE('EOonKImMRF6fEuOI9cof.LsYfG6Y88vEHwL9OxgYs3W.qbcm3+Z+e/VAcIhdbtXRLA2ffsreINh5VTIYySF0Yjo')
+print ('++ Auth Token : %s' % kicker2.authToken)
+print ("===============[KICKER 2 LOGIN SUKSES]===============\n")
+
+kicker3 = LINE('EOws88fFZBwfX75VnTB6.RhezGH3eH5AEPDgH6xaSvG.gOU8+w82xGrU74KJX/NJOktBROw2MPByK9Bcp0FYSNE')
+print ('++ Auth Token : %s' % kicker3.authToken)
+print ("===============[KICKER 3 LOGIN SUKSES]===============\n")
+
+kicker4 = LINE('EOJj78htCEuDHOrReRgd.zslwtVKEvCKn1kc90hwjZq.tTFnBDxw1FJuVlKs5PzeV2WmF38yMs9npbyfdPdhHWE')
+print ('++ Auth Token : %s' % kicker4.authToken)
+print ("===============[KICKER 4 LOGIN SUKSES]===============\n")
+
+kicker5 = LINE('EO266IJqWJIYogTG7MX7.VLQ1ozYf46mhecnT5r9EnW.PnXDPQmwLXldr+gJ6lCPc8jVewPDcCOuRBKQNOSO3dI')
+print ('++ Auth Token : %s' % kicker5.authToken)
+print ("===============[KICKER 5 LOGIN SUKSES]===============\n")
+
+g1 = LINE('EOqWAKosm5sh0t6gEt9f.Wr+FHw+NcQ2XUve/mXAwhW.sed/Nc8ezVyMb9GGpx+n4O4yM5bCOnu5NVmWk5rHhGY')
 print ("===============[ GHOST LOGIN SUKSES]===============\n")
 
 myMid = line.profile.mid
-creator = ["u47d41cc45c4576282d0c52ce4d5b5856"]
-owner = ["u47d41cc45c4576282d0c52ce4d5b5856"]
-admin = ["u47d41cc45c4576282d0c52ce4d5b5856"]
-staff = ["u47d41cc45c4576282d0c52ce4d5b5856"]
+creator = ["uc66e45201d1612eb4ce7b3a86bac4685"]
+owner = ["uc66e45201d1612eb4ce7b3a86bac4685"]
+admin = ["uc66e45201d1612eb4ce7b3a86bac4685"]
+staff = ["uc66e45201d1612eb4ce7b3a86bac4685"]
 Amid = kicker.getProfile().mid
-#Bmid = kicker2.getProfile().mid
-#Cmid = kicker3.getProfile().mid
-#Dmid = kicker4.getProfile().mid
-#Emid = kicker5.getProfile().mid
+Bmid = kicker2.getProfile().mid
+Cmid = kicker3.getProfile().mid
+Dmid = kicker4.getProfile().mid
+Emid = kicker5.getProfile().mid
 g1MID = g1.getProfile().mid
 KAC = [line,kicker,kicker2,kicker3,kicker3,kicker5]
 ABC = [kicker,kicker2,kicker3,kicker3,kicker5]
@@ -86,10 +92,10 @@ bool_dict = {
 }
 
 responsename1 = kicker.getProfile().displayName
-#responsename2 = kicker2.getProfile().displayName
-#responsename3 = kicker3.getProfile().displayName
-#responsename4 = kicker4.getProfile().displayName
-#responsename5 = kicker5.getProfile().displayName
+responsename2 = kicker2.getProfile().displayName
+responsename3 = kicker3.getProfile().displayName
+responsename4 = kicker4.getProfile().displayName
+responsename5 = kicker5.getProfile().displayName
 
 # Backup profile
 profile = line.getContact(myMid)
